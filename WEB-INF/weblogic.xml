@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+    <prefer-application-packages>
+        <!-- Asegúrate de que WebLogic prefiera la versión de SLF4J que está en tu aplicación -->
+        <package-name>org.slf4j</package-name>
+    </prefer-application-packages>
+</weblogic-web-app>
